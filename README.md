@@ -10,6 +10,7 @@ to make vim more like a modern editor.
 - Enable line numbers.
 - Mark column with the length of 80 and 120.
 - Using system clipboard
+- Exit neovim's terminal mode using `<Esc>`
 
 ## Installation
 

@@ -19,3 +19,5 @@ let &colorcolumn="80,".join(range(120,999),",")
 " Using system clipboard
 set clipboard=unnamedplus
 
+" Using <Esc> to exit terminal mode
+tnoremap <Esc> <C-\><C-n>
