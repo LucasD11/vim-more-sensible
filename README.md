@@ -9,8 +9,11 @@ to make vim more like a modern editor.
 - Enable mouse.
 - Enable line numbers.
 - Mark column with the length of 80 and 120.
+- Using system clipboard
 
 ## Installation
+
+Add line below to your `init.vim` file.
 
 ```
 Plug 'LucasD11/vim-more-sensible'
