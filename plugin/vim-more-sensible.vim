@@ -21,3 +21,6 @@ set clipboard=unnamedplus
 
 " Using <Esc> to exit terminal mode
 tnoremap <Esc> <C-\><C-n>
+
+" Bind fuzzy file finder
+nnoremap <leader>f :FZF<cr>

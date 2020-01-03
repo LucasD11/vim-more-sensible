@@ -11,6 +11,7 @@ to make vim more like a modern editor.
 - Mark column with the length of 80 and 120.
 - Using system clipboard
 - Exit neovim's terminal mode using `<Esc>`
+- Fuzzy File Finder is bind to `<leader>f`
 
 ## Installation
 
