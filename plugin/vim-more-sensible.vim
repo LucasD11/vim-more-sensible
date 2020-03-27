@@ -27,3 +27,6 @@ nnoremap <leader>f :FZF<cr>
 
 " Open file at the same line number as last close
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif  
+
+" Display Tab
+set list
