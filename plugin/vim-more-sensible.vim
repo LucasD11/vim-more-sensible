@@ -14,10 +14,7 @@ autocmd Filetype python match Error /\s\+$/
 
 " Highlight long line
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
-let &colorcolumn="80,".join(range(120,999),",")
-
-" Using system clipboard
-set clipboard=unnamedplus
+let &colorcolumn="100,".join(range(120,999),",")
 
 " Using <Esc> to exit terminal mode
 tnoremap <Esc> <C-\><C-n>
@@ -30,3 +27,6 @@ au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|
 
 " Display Tab
 set list
+
+" Hide line number in terminal mode
+autocmd TermOpen * setlocal nonumber norelativenumber
